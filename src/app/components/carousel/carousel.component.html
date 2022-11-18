@@ -1,0 +1,14 @@
+<mdb-carousel [controls]="true" [indicators]="true" [animation]="'fade'">
+    <mdb-carousel-item *ngFor="let slide of slides">
+        <img
+            [src]="slide.src"
+            alt="{{slide.title}}"
+            class="d-block w-full h-[475px] object-cover"
+            loading="lazy"
+        />
+        <div class="carousel-caption d-none d-md-block">
+            <h5>{{slide.title}}</h5>
+            <p>{{slide.subtitle}}</p>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
