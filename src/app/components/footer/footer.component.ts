@@ -11,5 +11,15 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  navtoaboutus(){
+    (document as any).getElementById("AboutUs").scrollIntoView();
+  }
 
+  navtoteams(){
+    (document as any).getElementById("Teams").scrollIntoView();
+  }
+
+  navtohome(){
+    (document as any).getElementById("Home").scrollIntoView();
+  }
 }
