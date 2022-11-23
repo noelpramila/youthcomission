@@ -11,5 +11,9 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  navtoactivity(){
+    (document as any).getElementById("activity").scrollIntoView();
+
+  }
 
 }

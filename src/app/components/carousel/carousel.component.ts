@@ -14,19 +14,19 @@ export class CarouselComponent implements OnInit {
   ngOnInit(): void {
     this.slides[0] = {
       id: 0,
-      src: 'https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1034&q=80',
+      src: 'assets/images/caro1.jpg',
       title: 'First slide',
       subtitle: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
     };
     this.slides[1] = {
       id: 1,
-      src: 'https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80',
+      src: 'assets/images/Image2.jpg',
       title: 'Second slide',
       subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
     }
     this.slides[2] = {
       id: 2,
-      src: 'https://images.unsplash.com/photo-1524911954794-e0b1f8411f6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=364&q=80',
+      src: 'assets/images/caro2.jpeg',
       title: 'Third slide',
       subtitle: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.'
     }
