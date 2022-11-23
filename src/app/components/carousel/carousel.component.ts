@@ -15,20 +15,20 @@ export class CarouselComponent implements OnInit {
     this.slides[0] = {
       id: 0,
       src: 'assets/images/caro1.jpg',
-      title: 'First slide',
-      subtitle: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+      title: 'Annaiyin Aravanaipil Celebrations @ Perambur Vicariate',
+      subtitle: 'Let us run to Mary, and, as her little children, cast ourselves into her arms with a perfect confidence.'
     };
     this.slides[1] = {
       id: 1,
       src: 'assets/images/Image2.jpg',
-      title: 'Second slide',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: '24 Hours Thanks Giving Mass Celebrations @ Manali Vicariate',
+      subtitle: 'It Would be easier for the world to survive without the sun than to do so without the sun than to do so without the Holy Mass.'
     }
     this.slides[2] = {
       id: 2,
       src: 'assets/images/caro2.jpeg',
-      title: 'Third slide',
-      subtitle: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.'
+      title: 'Youth Rally at Annai Velankanni Shrine',
+      subtitle: 'You cannot be half a saint; you must be a whole saint or no saint at all.'
     }
   }
 
